@@ -5,4 +5,4 @@ while True:
         text = input("InterpreterCode:newkinisGMCL> ")
         if text == "stopCode":break
         lexer.lexer(text)
-    except:print("OtherErrors : InterpreterError")
+    except:print("InterpreterError : pythonError")
