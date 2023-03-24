@@ -4,7 +4,8 @@ sign = {
     "quotationMark":["qmk","\""],
     "leftBrace":["lbe","{"],
     "rightBrace":["rbe","}"],
-    "multiplication":["mul","*"]
+    "multiplication":["mul","*"],
+    "period":["per","."]
 }
 def check(text):
     for i in sign:
